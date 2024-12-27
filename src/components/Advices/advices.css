@@ -1,0 +1,17 @@
+#advices{
+    padding: 0 10%;
+}
+.advices{
+    text-align: start;
+}
+.check{
+    list-style-image: url("../../assets/check-svgrepo-com.svg");
+    list-style-position: outside;
+}
+.error{
+    list-style-image: url("../../assets/cross-circle-svgrepo-com.svg");
+    list-style-position: outside;
+}
+li{
+    padding-left: 3px;
+}

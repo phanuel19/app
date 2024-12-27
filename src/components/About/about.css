@@ -1,0 +1,25 @@
+#about{
+    margin: 3% 0%;
+}
+.desc {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10%;
+}
+.texte h2, .texte p{
+    text-align: start;
+}
+#about 
+.texte h2{
+    font-weight: 900 ;
+    font-size: xx-large;
+}
+#about 
+.texte p{
+    font-weight: lighter;
+}
+img{
+    width: 450px;
+    height: auto;
+}
