@@ -1,4 +1,7 @@
-img {
+#controlButtons{
+    padding: 0 10%;
+}
+.img-btn {
   width: 80px;
   height: 80px;
   margin-bottom: 15px;
@@ -16,7 +19,7 @@ img {
 .buttons {
   border: 0.5px solid;
   border-radius: 16px;
-  width: 16%;
+  width: 20%;
   height: 370px;
   padding: 1em;
   display: flex;

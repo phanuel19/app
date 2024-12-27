@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+html{
+  scroll-behavior: smooth !important;
+}
 :root {
   font-family: "Raleway", serif !important;
   line-height: 1.5;
@@ -13,6 +16,7 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
 }
 
 
@@ -27,6 +31,6 @@ body {
   place-items: center;
   min-width: 100%;
   min-height: 100vh;
-  scroll-behavior: smooth;
+  scroll-behavior: smooth !important;
 }
 
