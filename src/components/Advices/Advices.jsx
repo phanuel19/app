@@ -3,7 +3,7 @@ import './advices.css';
 function Advices() {
     return (
         <div id="advices">
-            <h2> <FaLightbulb /> Advices</h2>
+            <h2> <FaLightbulb /> Recommandations</h2>
             <ul>
                 <li className="advices check">
                     Analyse des sols :

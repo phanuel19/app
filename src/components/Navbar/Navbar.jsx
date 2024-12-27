@@ -7,10 +7,10 @@ function Navbar() {
         <nav>
                 <h1 className="logo">NOVA</h1>
             <ul>
-                <li><a href="#about"><FaInfoCircle />About</a></li>
-                <li><a href="#dataCharts"><FaDatabase />Data</a></li>
-                <li><a href="#advices"><FaLightbulb />Recommendations</a></li>
-                <li><a href="#controlButtons"><GrAction />Actions</a></li>
+                <li><FaInfoCircle /><a href="#about">About</a></li>
+                <li><FaDatabase /><a href="#dataCharts">Données</a></li>
+                <li><FaLightbulb /><a href="#advices">Recommendations</a></li>
+                <li><GrAction /><a href="#controlButtons">Actions</a></li>
             </ul>
         </nav>
     )
