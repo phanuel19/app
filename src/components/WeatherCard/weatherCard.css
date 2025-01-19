@@ -1,0 +1,60 @@
+
+.container {
+    margin-top: 50px 50px;
+    padding: 50px 50px;
+  }
+  
+  .displayBox {
+    background: radial-gradient(
+      circle at 10% 20%,
+      rgb(116, 203, 199) 0%,
+      rgb(220, 246, 200) 80%
+    );
+    margin: 5px auto;
+    padding: 10px 15px;
+    box-shadow: 9px 9px 5px #4a4a4a;
+    border-radius: 10px;
+    height: 90%;
+    width: 60%;
+  }
+
+  
+  /* .current-location {
+    position: relative;
+    top: 10px;
+    right: 20px;
+  } */
+  /* .current-location:hover {
+    cursor: pointer;
+  } */
+  h1 {
+    text-transform: capitalize;
+  }
+
+  li {
+    text-transform: capitalize;
+  }
+  .col-5 {
+    text-align: center;
+  }
+  .heading {
+    text-align: center;
+    /* padding: 0.3vw; */
+  }
+  .time {
+    font-size: 1rem;
+  }
+  
+  .detail {
+    font-size: 1rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  a {
+    color: #3e4a61;
+  }
+  #details {
+    text-align: center;
+  }

@@ -1,5 +1,5 @@
-#about{
-    margin: 3% 0%;
+#about {
+  margin: 3% 0%;
 }
 .desc {
   display: flex;
@@ -7,19 +7,33 @@
   justify-content: space-between;
   padding: 0 10%;
 }
-.texte h2, .texte p{
-    text-align: start;
+.texte h2,
+.texte p {
+    text-align: justify;
 }
-#about 
-.texte h2{
-    font-weight: 900 ;
-    font-size: xx-large;
+#about .texte h2 {
+  font-weight: 900;
+  font-size: xx-large;
 }
-#about 
-.texte p{
-    font-weight: lighter;
+#about .texte p {
+  font-weight: lighter;
 }
-img{
-    width: 450px;
-    height: auto;
+img {
+  width: 450px;
+  height: auto;
+}
+.carousel-img {
+  width: 50%;
+  height: auto;
+}
+
+#parent {
+  display: flex;
+  padding: 0 10%;
+  justify-content: space-between;
+}
+
+#parent p {
+  width: 45%;
+  text-align: justify;
 }

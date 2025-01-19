@@ -1,3 +1,10 @@
 #dataCharts{
     padding: 0 10%;
 }
+
+
+
+  .weather-div{
+    display: flex;
+    padding: 0 10%;
+  }

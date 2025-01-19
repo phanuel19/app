@@ -19,18 +19,22 @@ html{
   scroll-behavior: smooth;
 }
 
-
-
 body {
   margin: 0;
   padding: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* background-image: linear-gradient(to left, rgb(5, 8, 40), rgb(1, 4, 39)); */
   display: flex;
   place-items: center;
   min-width: 100%;
   min-height: 100vh;
+  color: white;
   scroll-behavior: smooth !important;
+  background: radial-gradient(rgb(251, 250, 225) 0%, rgb(100, 163, 111) 100%);
+  color: #3e4a61;
+}
+
+p{
+  color: #5c5b5b;
 }
 
