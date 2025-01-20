@@ -30,7 +30,8 @@ body {
   min-height: 100vh;
   color: white;
   scroll-behavior: smooth !important;
-  background: radial-gradient(rgb(251, 250, 225) 0%, rgb(100, 163, 111) 100%);
+  /* background: radial-gradient(rgb(251, 250, 225) 0%, rgb(100, 163, 111) 100%); */
+  background-color: white;
   color: #3e4a61;
 }
 

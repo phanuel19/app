@@ -88,7 +88,7 @@ function Datacharts() {
                         />
 
                     </Box>
-                    <p style={{ textAlign: "center", float: "right", maxWidth: "600px" }}>
+                    <p style={{  float: "right", maxWidth: "600px",textAlign:"left"}}>
                         Diagramme 1 : Répartition de l&apos;eau dans un réservoir <br />
                         Ce diagramme illustre la proportion d&apos;eau contenue par rapport au volume maximum d&apos;un réservoir.
                         On observe que 40 % du réservoir est encore disponible (en rouge), tandis que 60 % est occupé par l&apos;eau
@@ -118,7 +118,7 @@ function Datacharts() {
                             height={200}
                         />
                     </Box>
-                    <p style={{ textAlign: "center", float: "right", maxWidth: "600px" }}>
+                    <p style={{ textAlign:"left", float: "right", maxWidth: "600px" }}>
                         Diagramme 2 : Comparaison entre le volume maximum et le contenu actuel <br />
                         Ce graphique circulaire montre une répartition similaire, où 30 % de la capacité maximale (en vert)
                         est utilisée, et 60 % du réservoir est encore disponible (en bleu). Ce type de visualisation est utile
@@ -149,7 +149,7 @@ function Datacharts() {
                             height={200}
                         />
                     </Box>
-                    <p style={{ textAlign: "center", float: "right", maxWidth: "600px" }}>
+                    <p style={{ textAlign: "justify", float: "right", maxWidth: "600px" }}>
                         Diagramme 3 : Composition chimique ou physique <br />
                         Le troisième diagramme représente la répartition des éléments principaux dans un système donné, tel qu&apos;un liquide ou une substance :
                         <ul>
@@ -177,7 +177,7 @@ function Datacharts() {
                 </Stack>
                 <h3>   Courbe Graphique : Évolution du Nombre d&apos;Engrais Utilisés par Jour</h3>
 
-                <p>
+                <p className="longText">
                     Cette courbe graphique illustre la variation quotidienne de la quantité d&apos;engrais utilisée sur une période donnée. L&apos;axe horizontal (X) représente les jours, tandis que l&apos;axe vertical (Y) indique la quantité d&apos;engrais utilisée (en kilogrammes, tonnes, ou toute autre unité pertinente).
                     Description des points clés :
                     Tendances générales : La courbe permet d&apos;observer les fluctuations dans l&apos;utilisation des engrais, mettant en évidence les périodes d&apos;utilisation intensive ou réduite.

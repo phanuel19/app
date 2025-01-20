@@ -1,10 +1,11 @@
 #dataCharts{
-    padding: 0 10%;
+    padding: 0 5%;
+    margin-top: 5%;
 }
-
-
-
   .weather-div{
     display: flex;
     padding: 0 10%;
+  }
+  .longText{
+    text-align: justify;
   }

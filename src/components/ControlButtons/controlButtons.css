@@ -7,6 +7,9 @@
   margin-bottom: 15px;
   align-self: center ;
 }
+.buttons-actions .description{
+  text-align: justify;
+}
 .controlZone {
   width: 100%;
   margin: 3% 0;
@@ -16,7 +19,7 @@
   font-size: small;
 }
 
-.buttons {
+.buttons-actions {
   border: 0.5px solid;
   border-radius: 16px;
   width: 20%;
@@ -26,20 +29,20 @@
   flex-direction: column;
   transition: transform 0.8s;
 }
-.buttons h3 {
-  font-size: 18px;
+.buttons-actions h3 {
+  font-size: 15px;
   font-weight: bold;
   color: #333;
   margin-bottom: 10px;
   text-align: center;
 }
-.buttons p {
+.buttons-actions p {
   font-size: 14px;
   color: #666;
   text-align: center;
   line-height: 1.5;
 }
-.buttons button {
+.buttons-actions button {
   margin-top: auto;
   padding: 10px 20px;
   background-color: #f05b3f;
@@ -51,7 +54,7 @@
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
-.buttons:hover {
+.buttons-actions:hover {
   transform: translateY(-10px);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }

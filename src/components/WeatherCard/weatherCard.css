@@ -3,18 +3,23 @@
     margin-top: 50px 50px;
     padding: 50px 50px;
   }
-  
+  #weatherDescription {
+    margin: 0;
+    padding: 0;
+  }
   .displayBox {
-    background: radial-gradient(
+    /* background: radial-gradient(
       circle at 10% 20%,
       rgb(116, 203, 199) 0%,
       rgb(220, 246, 200) 80%
-    );
+    ); */
+    background-color: #3e4a61 ;
+    color: white;
     margin: 5px auto;
     padding: 10px 15px;
     box-shadow: 9px 9px 5px #4a4a4a;
     border-radius: 10px;
-    height: 90%;
+    height: fit-content;
     width: 60%;
   }
 
