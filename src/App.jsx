@@ -28,7 +28,7 @@ function App() {
 
     return (
       <div className={styles.container}>
-        <div className={styles.imageBlock}></div>
+    
         <div className={styles.formBlock}>
           <form className={styles.form}>
             <div className={styles.logoBlock}>

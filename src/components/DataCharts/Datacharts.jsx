@@ -57,9 +57,9 @@ function Datacharts() {
             <Navbar />
             <h2><TiWeatherPartlySunny />Prévisions </h2>
            <div className="weather-div">
-           <WeatherCard  weatherData={weatherData}/>
-           <WeatherCard  weatherData={weatherData}/>
-           <WeatherCard  weatherData={weatherData}/>
+           <WeatherCard  weatherData={weatherData} plus={5}/>
+           <WeatherCard  weatherData={weatherData} plus={0}/>
+           <WeatherCard  weatherData={weatherData} plus={3}/>
            </div>
             <div id="dataCharts">
                 <h2><FaDatabase /> Données </h2>

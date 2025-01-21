@@ -6,14 +6,7 @@
     font-family: 'Arial', sans-serif;
   }
   
-  /* Section de l'image */
-  .imageBlock {
-    flex: 1;
-    background-image: url('../public/rice.jpeg'); /* Remplacez par votre URL d'image */
-    background-size: cover;
-    background-position: center;
- 
-  }
+
   
   /* Section du formulaire */
   .formBlock {
@@ -21,34 +14,39 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #f4f4f9;
+    background-image: linear-gradient(to right top, #3e4a61, #384d7f, #3c4d9a, #5048b2, #703cc4);
     padding: 20px;
     box-shadow: -5px 0 10px rgba(0, 0, 0, 0.1);
   }
   
   /* Formulaire */
   .form {
+    display: flex;
+    flex-direction: column;
     width: 100%;
-    max-width: 400px;
-    background: white;
+    max-width: 350px;
+    
     border-radius: 10px;
-    padding: 20px;
+    padding:2%;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    background-color:rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(4px) brightness(1.23) contrast(104%);
   }
   
   /* Logo */
   .logoBlock {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
   
   .logoImg {
-    color: #5998c5; /* Couleur personnalisée */
+    color: white; /* Couleur personnalisée */
   }
   
   .logo {
-    font-size: 24px;
-    color: #58355e; /* Couleur personnalisée */
+    font-size: 30px;
+    color: white; /* Couleur personnalisée */
     font-weight: bold;
   }
   
@@ -57,18 +55,21 @@
     width: 100%;
     padding: 10px;
     margin: 10px 0;
-    border: 1px solid #ddd;
+    border: none;
     border-radius: 5px;
     font-size: 14px;
+    background-color:rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(4px) brightness(1.23) contrast(104%);
   }
   
   /* Bouton de soumission */
   .submit {
     width: 100%;
     padding: 10px;
-    background-color: #f05b3f; /* Couleur personnalisée */
+    background-color: #111518;
+    margin-top: 1%; /* Couleur personnalisée */
     color: white;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: bold;
     border: none;
     border-radius: 5px;

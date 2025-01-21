@@ -1,5 +1,5 @@
 import './weatherCard.css'
-const WeatherCard = ({weatherData}) => {
+const WeatherCard = ({weatherData, plus}) => {
     return (
         <div id="weather">
        
@@ -10,11 +10,11 @@ const WeatherCard = ({weatherData}) => {
                 </section>
                 <div className="container" id="weatherDescription">
                     <div className="row">
-                            <h2 id="currentTemperature">{weatherData?.main?.temp}°C</h2>
+                            <h2 id="currentTemperature">{Math.floor((weatherData?.main?.temp)+(plus))}°C</h2>
                         <div className="col-6 temperature">
                             <ul className="detail">
-                                <li id="humidity">Humidity: {weatherData?.main?.humidity}%</li>
-                                <li id="windSpeed">Wind Speed: {weatherData?.wind?.speed} km/H</li>
+                                <li id="humidity">Humidity: {((Math.random()*2)+(weatherData?.main?.humidity)).toPrecision(2)}%</li>
+                                <li id="windSpeed">Wind Speed: { ((Math.random()*2)+(weatherData?.wind?.speed)).toPrecision(3)} km/H</li>
                                 <li id="description">{weatherData?.weather[0]?.description}</li>
                             </ul>
                         </div>

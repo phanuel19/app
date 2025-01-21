@@ -22,9 +22,9 @@ img {
   width: 450px;
   height: auto;
 }
-.carousel-img {
-  width: 50%;
-  height: auto;
+#parent .carousel-img {
+  width:400px;
+  height: 400px ;
 }
 
 #parent {
