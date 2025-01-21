@@ -104,7 +104,7 @@ function Datacharts() {
                                     arcLabelMinAngle: 35,
                                     arcLabelRadius: "60%",
                                     data: [
-                                        { id: 0, value: 30, label: "volume max" },
+                                        { id: 0, value: 30, label: "Réservoir" },
                                         { id: 1, value: 60, label: "eau contenue" },
                                     ],
                                 },

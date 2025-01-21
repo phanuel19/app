@@ -32,7 +32,7 @@ function Navbar() {
                 </li>
                 <li>
                     <GrAction />
-                    <Link to="/control-buttons">Actions</Link>
+                    <Link to="/controlButtons">Actions</Link>
                 </li>
             </ul>
         

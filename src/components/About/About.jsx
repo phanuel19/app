@@ -25,7 +25,7 @@ function About() {
                 </div>
             </div>
             <div id="parent">
-                <img src="../../../public/culture_du_riz.jpg" alt="" className="carousel-img" />
+                <img src="https://lh5.googleusercontent.com/proxy/Jzn0sbe2G26dJcrOQytwUJjk2mEkc_ZHhcMsEtprMerWA3DhrlN75EJGtd06YWydibgVWM15ikIGF23m8Zk4MI0XlTGvFOuBCDXv9kF02idJOdlyTXRwJoOR" alt="" className="carousel-img" />
                 <p> Cette image reflète la réalité quotidienne des riziculteurs ivoiriens,
                     mettant en lumière le travail acharné nécessaire pour nourrir les populations.
                     Cependant, des défis comme la gestion de l&apos;eau, l&apos;analyse des données et la planification agricole
